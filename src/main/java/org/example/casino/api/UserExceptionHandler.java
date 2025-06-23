@@ -23,4 +23,5 @@ public class UserExceptionHandler {
                 .build();
         return new ResponseEntity<>(apiErrors, HttpStatus.NOT_FOUND);
     }
+
 }
